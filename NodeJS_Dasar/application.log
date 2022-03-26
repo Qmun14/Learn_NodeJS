@@ -1,0 +1,9 @@
+Hello World!
+Ma'mun Ramdhan
+┌───────────┬───────────┐
+│  (index)  │  Values   │
+├───────────┼───────────┤
+│ firstName │ "Ma'mun"  │
+│ lastName  │ 'Ramdhan' │
+└───────────┴───────────┘
+Ini adalah log info dari aplikasi file console.mjs
