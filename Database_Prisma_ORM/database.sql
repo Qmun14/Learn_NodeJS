@@ -126,3 +126,9 @@ USE belajar_nodejs_prisma;
 SHOW TABLES;
 
 DESC sample 
+
+SELECT * FROM _prisma_migrations;
+
+DESC sample;
+
+ALTER TABLE sample ADD COLUMN full_description TEXT;

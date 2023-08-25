@@ -1,0 +1,113 @@
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev --create-only --name create_all_model
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Prisma Migrate created the following migration without applying it 20230825002128_create_all_model
+
+You can now edit it and apply it by running prisma migrate dev.
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.1.1 -> 5.2.0                        │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev --create-only --name create_all_model
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Prisma Migrate created the following migration without applying it 20230825002704_create_all_model
+
+You can now edit it and apply it by running prisma migrate dev.
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Applying migration `20230825002704_create_all_model`
+
+The following migration(s) have been applied:
+
+migrations/
+  └─ 20230825002704_create_all_model/
+    └─ migration.sql
+
+Your database is now in sync with your schema.
+
+✔ Generated Prisma Client (5.1.1 | library) to .\node_modules\@prisma\client in 91ms
+
+
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev --create-only --name add_description_to_sample_table
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Prisma Migrate created the following migration without applying it 20230825003148_add_description_to_sample_table
+
+You can now edit it and apply it by running prisma migrate dev.
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev --create-only --name add_description_to_sample_table
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Prisma Migrate created the following migration without applying it 20230825003239_add_description_to_sample_table
+
+You can now edit it and apply it by running prisma migrate dev.
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma migrate dev
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+Applying migration `20230825003239_add_description_to_sample_table`
+
+The following migration(s) have been applied:
+
+migrations/
+  └─ 20230825003239_add_description_to_sample_table/
+    └─ migration.sql
+
+Your database is now in sync with your schema.
+
+✔ Generated Prisma Client (5.1.1 | library) to .\node_modules\@prisma\client in 90ms
+
+
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma db pull
+Prisma schema loaded from prisma\schema.prisma
+Environment variables loaded from .env
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+✔ Introspected 7 models and wrote them into prisma\schema.prisma in 98ms
+
+Run prisma generate to generate Prisma Client.
+
+
+Qmun14@IdeaPad-Gamming3i MINGW64 /d/Learn_NodeJS/Database_Prisma_ORM (prisma-orm)
+$ npx prisma db pull
+Prisma schema loaded from prisma\schema.prisma
+Environment variables loaded from .env
+Datasource "db": MySQL database "belajar_nodejs_prisma" at "localhost:3306"
+
+✔ Introspected 7 models and wrote them into prisma\schema.prisma in 98ms
+
+Run prisma generate to generate Prisma Client.
+
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.1.1 -> 5.2.0                        │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
